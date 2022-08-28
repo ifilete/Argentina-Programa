@@ -1,0 +1,29 @@
+body {
+    background-color: #e0e6eb;
+    color: #212529;
+    font-family: 'IBM Plex Mono', monospace;
+}
+
+button {
+    background-color: inherit;
+    color: inherit;
+    border-style: solid;
+    border-color: currentColor;
+    font-weight: bold;
+}
+
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+}
+
+.intro h1 {
+    font-size: 196px;
+    font-weight: 700;
+}
+
+.intro h2 {
+    font-size: 56px;
+    font-weight: 400;
+}
