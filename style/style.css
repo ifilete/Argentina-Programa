@@ -36,4 +36,8 @@ a:link, a:visited, a:active {
     .intro h2 {
         font-size: 1em;
     }
+
+    .ad {
+        flex-direction: column;
+    } 
 }
