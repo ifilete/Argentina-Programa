@@ -1,47 +1,33 @@
 <!DOCTYPE html>
+
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <!--<link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/reseter.css/2.0.0/reseter.min.css"
-            integrity="sha512-gCJkkUMGTe73+FMwog6gIBCVJIMXRoc21l6/IPCuzxCex/1sxvO8ctb6Zd4/WWs2UMqmtnDrAdhJht5pEY0LXg=="
-            crossorigin="anonymous"
-            referrerpolicy="no-referrer"
-        />-->
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="style/style.css" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link
-            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap"
-            rel="stylesheet"
-        />
-        <script
-            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
-            crossorigin="anonymous"
-            defer
-        ></script>
-        <script src="script/main.js" defer></script>
-        <title>¡Hola!</title>
-    </head>
-    <body>
-        <div class="container-fluid d-flex row text-center m-2 p-1 intro">
-            <h1 class="p-0 m-0">¡Hola!</h1>
-            <h2 class="p-0 m-0">Mi nombre es <span id="nombre">Alexis</span></h2>
-        </div>
-        <div class="d-flex justify-content-center gap-3 my-5 ad">
-            <button id="nombre" class="" type="button" onclick="cambiarNombre()">Cambiar nombre</button>
-            <button id="color"  class="" type="button" onclick="cambiarColor()">Cambiar color</button>
-            <button id="cartel" class="" type="button"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Vieja broma</a></button>
-        </div>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/style.css"/>
+    <script src="./script/script.js" defer></script>
+    <title>¡Hola!t</title>
+</head>
+
+<body class="d-flex col">
+    
+    <div class="d-flex col justify-content-center align-items-center gap-1 m-3">
+        <h1 class="h1">¡Hola!</h1>
+        <h2 class="h2">Mi nombre es <span id="miNombre">Alexis</span></h2>
+    </div>
+    
+    <div class="d-flex justify-content-center gap-1 botones">
+        <button id="nombre" class="" type="button" onclick="cambiarNombre()">Cambiar nombre</button>
+        <button id="color"  class="" type="button" onclick="cambiarColor()">Cambiar color</button>
+        <button id="cartel" class="" type="button"><a href="https://youtu.be/dQw4w9WgXcQ" target="_blank">Vieja broma</a></button>
+    </div>
+
+</body>
+
 </html>

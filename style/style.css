@@ -1,43 +1,95 @@
+.d-flex {
+    display: flex;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.gap-1 {
+    gap: 1em;
+}
+
+.gap-2 {
+    gap: 2em;
+}
+
+.m-3 {
+    margin: 3em;
+}
+
+.my-3 {
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.mx-3 {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
 body {
+    font-size: 16px;
+    font-family: 'IBM Plex Mono', monospace;
     background-color: #e0e6eb;
     color: #212529;
-    font-family: 'IBM Plex Mono', monospace;
 }
 
-button {
-    background-color: inherit;
-    color: inherit;
-    border-style: solid;
-    border-color: currentColor;
-    font-weight: bold;
-}
-
-a:link, a:visited, a:active {
-    text-decoration: none;
-    color: inherit;
-    background-color: inherit;
-}
-/**********************************************************/
-.intro h1 {
+.h1 {
     font-size: 12.25em;
     font-weight: 700;
 }
 
-.intro h2 {
+.h2 {
     font-size: 3.5em;
     font-weight: 400;
 }
 
 @media (max-width: 575.98px) {
-    .intro h1 {
+    .h1 {
         font-size: 3.5em;
     }
 
-    .intro h2 {
+    .h2 {
         font-size: 1em;
     }
 
-    .ad {
+    .botones {
         flex-direction: column;
-    } 
+        align-items: center;
+    }
+
+    button {
+        width: 120px;
+    }
+}
+
+/**/
+
+button {
+    color: inherit;
+    background-color: inherit;
+    font-size: 1em;
+    font-family: inherit;
+    font-weight: bold;
+    border-style: solid;
+    border-color: inherit;
+    border-radius: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
