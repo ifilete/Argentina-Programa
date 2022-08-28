@@ -17,13 +17,23 @@ a:link, a:visited, a:active {
     color: inherit;
     background-color: inherit;
 }
-
+/**********************************************************/
 .intro h1 {
-    font-size: 12.25rem;
+    font-size: 12.25em;
     font-weight: 700;
 }
 
 .intro h2 {
-    font-size: 3.5rem;
+    font-size: 3.5em;
     font-weight: 400;
+}
+
+@media (max-width: 575.98px) {
+    .intro h1 {
+        font-size: 3.5em;
+    }
+
+    .intro h2 {
+        font-size: 1em;
+    }
 }

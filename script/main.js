@@ -1,8 +1,7 @@
 function cambiarNombre() {
-    let actualNombre = document.getElementById("nombre").innerHTML;
-    console.log(actualNombre);
-    let nuevoNombre = prompt("¿Cómo te llamas?", "Alexis");
-    document.getElementById("nombre").innerHTML = "Mi nombre es " + nuevoNombre;
+    let nuevoNombre = prompt("¿Cómo te llamas?", document.getElementById("nombre").innerHTML);
+    console.log(nuevoNombre);
+    document.getElementById("nombre").innerHTML = nuevoNombre;
 }
 
 function cambiarColor() {
