@@ -1,6 +1,5 @@
 function cambiarNombre() {
     let nuevoNombre = prompt("¿Cómo te llamas?", document.getElementById("miNombre").innerHTML);
-    console.log(nuevoNombre);
     document.getElementById("miNombre").innerHTML = nuevoNombre;
 }
 
